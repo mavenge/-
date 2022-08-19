@@ -6,6 +6,8 @@ Vue.component('Cartoon', Cartoon)
 Vue.config.productionTip = false
 
 new Vue({
-  render: function (h) { return h(App) },
-  router
+  render: function (h) {
+    return h(App)
+  },
+  router,
 }).$mount('#app')
